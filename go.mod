@@ -36,8 +36,27 @@ require (
 	github.com/jessevdk/go-flags v1.4.0
 	github.com/jrick/bitset v1.0.0
 	github.com/jrick/logrotate v1.0.0
-	golang.org/x/crypto v0.0.0-20180718160520-a2144134853f
-	golang.org/x/sys v0.0.0-20180816055513-1c9583448a9c
+	golang.org/x/crypto v0.1.0
+	golang.org/x/sys v0.1.0
+)
+
+require (
+	github.com/decred/dcrd/dcrec/edwards v0.0.0-20181208004914-a0816cf4301f // indirect
+	github.com/fsnotify/fsnotify v1.4.7 // indirect
+	github.com/golang/protobuf v1.2.0 // indirect
+	github.com/hpcloud/tail v1.0.0 // indirect
+	github.com/kr/pretty v0.1.0 // indirect
+	github.com/kr/pty v1.1.1 // indirect
+	github.com/kr/text v0.1.0 // indirect
+	github.com/onsi/ginkgo v1.6.0 // indirect
+	github.com/onsi/gomega v1.4.1 // indirect
+	golang.org/x/net v0.1.0 // indirect
+	golang.org/x/sync v0.0.0-20181108010431-42b317875d0f // indirect
+	golang.org/x/text v0.4.0 // indirect
+	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127 // indirect
+	gopkg.in/fsnotify.v1 v1.4.7 // indirect
+	gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7 // indirect
+	gopkg.in/yaml.v2 v2.2.1 // indirect
 )
 
 replace (
