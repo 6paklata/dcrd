@@ -9,7 +9,13 @@ require (
 	github.com/decred/dcrd/dcrutil v1.1.1
 	github.com/decred/dcrd/wire v1.2.0
 	github.com/decred/slog v1.0.0
-	golang.org/x/crypto v0.0.0-20180718160520-a2144134853f
+	golang.org/x/crypto v0.1.0
+)
+
+require (
+	github.com/agl/ed25519 v0.0.0-20170116200512-5312a6153412 // indirect
+	github.com/dchest/blake256 v1.0.0 // indirect
+	github.com/decred/base58 v1.0.0 // indirect
 )
 
 replace (
